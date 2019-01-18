@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream"
+    tools:context=".updateProfile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updte Profile"
+        android:textAlignment="center"
+        android:id="@+id/t0"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/purple"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:textSize="30dp"
+        android:layout_below="@id/t0"
+        android:text="name"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:hint="name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/t1"
+        android:layout_below="@id/t0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:layout_below="@id/t1"
+        android:text="email"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:hint="email"
+        android:layout_below="@id/e1"
+        android:layout_toRightOf="@id/t2"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        android:id="@+id/t3"
+        android:layout_below="@id/t2"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e3"
+        android:layout_toRightOf="@id/t3"
+        android:layout_below="@id/e2"
+        android:hint="contact"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Change"
+        android:layout_below="@id/e3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:background="@drawable/btn1"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

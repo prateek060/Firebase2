@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "884747326116",
+    "firebase_url": "https://secondproject-5730a.firebaseio.com",
+    "project_id": "secondproject-5730a",
+    "storage_bucket": "secondproject-5730a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884747326116:android:ede7e0edbe48ec12",
+        "android_client_info": {
+          "package_name": "com.example.dell.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884747326116-6l10i5rklh0vartoerk4n5js20fjq7e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.firebase2",
+            "certificate_hash": "81a46976ad5a90e91fddc469098bd5ab123d5e47"
+          }
+        },
+        {
+          "client_id": "884747326116-io9902ou910b9rva4un07ke5bifqi1qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg7lTBMbBxQXNzlh772k7SErp2EP_CtUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884747326116-io9902ou910b9rva4un07ke5bifqi1qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
